@@ -1,0 +1,54 @@
+body {
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.header {
+    background-color: dimgray;
+    height: 50px;
+}
+
+.content {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 900px;
+}
+
+#index {
+    background-image: url("resources/DSC_0261withfont.jpg");
+    background-size: cover;
+}
+
+#bio {
+    background-image: url("resources/KtHqUeUcOaU.jpg");
+    background-size: cover;
+    opacity: 0.5;
+}
+#holidays {
+    background-image: url("resources/Ocean inside.jpg");
+    background-size: cover;
+    opacity: 0.5;
+}
+#skills {
+    background-image: url("resources/nTr5FTLo99Q.jpg");
+    background-size: cover;
+    opacity: 0.5;
+}
