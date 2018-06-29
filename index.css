@@ -2,28 +2,38 @@ body {
 
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
+.center {
     text-align: center;
-    padding: 16px;
-    text-decoration: none;
+}
+
+.slider-img {
+    opacity: 0.9
 }
 
 .header {
     background-color: dimgray;
+    text-align: center;
     height: 50px;
+    padding-top: 15px;
+}
+
+.header-link {
+    color: darkgray;
+}
+
+.header-link:hover {
+    color: snow;
+}
+
+.header-text {
+    color: darkgray;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.item-customize {
+    margin-left: 50px;
 }
 
 .content {
@@ -32,23 +42,23 @@ li a {
     height: 900px;
 }
 
-#index {
+.index {
     background-image: url("resources/DSC_0261withfont.jpg");
     background-size: cover;
 }
 
-#bio {
+.bio {
     background-image: url("resources/KtHqUeUcOaU.jpg");
     background-size: cover;
-    opacity: 0.5;
+    opacity: 0.75;
 }
-#holidays {
+.holidays {
     background-image: url("resources/Ocean inside.jpg");
     background-size: cover;
-    opacity: 0.5;
+    opacity: 0.75;
 }
-#skills {
+.skills {
     background-image: url("resources/nTr5FTLo99Q.jpg");
     background-size: cover;
-    opacity: 0.5;
+    opacity: 0.75;
 }
